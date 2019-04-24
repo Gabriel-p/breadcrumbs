@@ -10,6 +10,15 @@ The author arrives at the conclusion that when N>=50*Tf (e.e: N_eff>=50) then th
 
 > with emcee (..) we can use the parallel chains to reduce the variance and we've found that chains longer than about 50*Tf are often sufficient (to estimate the integrated autocorrelation time)
 
+According to [Convergence Diagnostics For Markov chain Monte Carlo, Ford (2015)][3] page 20, we should look for:
+
+> the smallest lag to give an $\rho lag \approx 0$
+
+and this is:
+
+> One of several methods for estimating how many iterations of Markov chain are needed for effectively independent samples
+
+
 
 ## Definitions
 
@@ -69,3 +78,4 @@ The value `lag=30` is a very common (even low) value in the `ptemcee` chains, so
 ________________________________________________
 [1]: https://emcee.readthedocs.io/en/latest/tutorials/autocorr/
 [2]: http://doingbayesiandataanalysis.blogspot.com/2011/11/thinning-to-reduce-autocorrelation.html
+[3]: https://astrostatistics.psu.edu/RLectures/diagnosticsMCMC.pdf
