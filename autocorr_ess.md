@@ -6,9 +6,10 @@ The `emcee` [article about convergence][1] defines the autocorrelation time as:
 
 > Tf is the integrated autocorrelation time for the chain. In other words, N/Tf is the effective number of samples and Tf is the number of steps that are needed before the chain "forgets" where it started (...) if you can estimate Tf, then you can estimate the number of samples that you need to generate to reduce the relative error on your target integral to (say) a few percent.
 
-The author arrives at the conclusion that when N>=50*Tf (e.e: N_eff>=50) then the Tf value is properly estimated:
+The author arrives at the conclusion that when `N>=50*Tf` (e.e: `N_eff>=50`) then the Tf value is properly estimated:
 
-> with emcee (..) we can use the parallel chains to reduce the variance and we've found that chains longer than about 50*Tf are often sufficient (to estimate the integrated autocorrelation time)
+> with emcee (..) we can use the parallel chains to reduce the variance and we've found that chains longer than about `50*Tf` are often sufficient (to estimate the integrated autocorrelation time)
+> you probably shouldn’t trust any estimate of τ unless you have more than FxT samples for some F≥50.
 
 According to [Convergence Diagnostics For Markov chain Monte Carlo, Ford (2015)][3] page 20, we should look for:
 
@@ -17,6 +18,8 @@ According to [Convergence Diagnostics For Markov chain Monte Carlo, Ford (2015)]
 and this is:
 
 > One of several methods for estimating how many iterations of Markov chain are needed for effectively independent samples
+
+According to this [Coursera video tutorial][4] (around 11 min mark)
 
 
 
@@ -79,3 +82,4 @@ ________________________________________________
 [1]: https://emcee.readthedocs.io/en/latest/tutorials/autocorr/
 [2]: http://doingbayesiandataanalysis.blogspot.com/2011/11/thinning-to-reduce-autocorrelation.html
 [3]: https://astrostatistics.psu.edu/RLectures/diagnosticsMCMC.pdf
+[4]: https://www.coursera.org/lecture/mcmc-bayesian-statistics/trace-plots-autocorrelation-oqvff
