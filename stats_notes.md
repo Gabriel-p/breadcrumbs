@@ -50,7 +50,7 @@ These two *Towards Data Science* articles introduce the concept at different lev
 About Markov Chains it says:
 > Markov chains, which seem like an unreasonable way to model a random variable over a few periods, can be used to compute the long-run tendency of that variable if we understand the probabilities that govern its behavior.
 
-* This CrossValidated [answer][10] gives a somewhat simple explanation of a Markov Chain, that can be summarized as:
+This CrossValidated [answer][10] gives a somewhat simple explanation of a Markov Chain, that can be summarized as:
 
 > We want to generate random draws from a target distribution. We then identify a way to construct a 'nice' Markov chain such that its equilibrium probability distribution is our target distribution.
 >
