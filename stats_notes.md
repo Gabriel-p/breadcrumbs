@@ -41,7 +41,7 @@ All these methods are described in `An Introduction to the Bootstrap`, Efron & T
 
 ## MCMC
 
-These two *Towards Data Science* articles introduce the concept at different levels:
+These *Towards Data Science* articles introduce the concept at different levels:
 
 * A (very) gentle introduction to the concept of MCMC: [Markov Chain Monte Carlo: Lifting your understanding of MCMC to an intermediate level][8]. It comments separately the concepts of Monte Carlo, Markov Chains, and acceptance/rejection sampling.
 
@@ -49,6 +49,10 @@ These two *Towards Data Science* articles introduce the concept at different lev
 > MCMC methods are used to approximate the posterior distribution of a parameter of interest by random sampling in a probabilistic space.
 About Markov Chains it says:
 > Markov chains, which seem like an unreasonable way to model a random variable over a few periods, can be used to compute the long-run tendency of that variable if we understand the probabilities that govern its behavior.
+
+* The article [MCMC Intuition for Everyone][11] comments a bit more on Markov Chains, and makes the point:
+> Why is a Markov Chain important? It is important because of its Stationary Distribution.
+> The stationary state distribution is important because it lets you define the probability for every state of a system at a random time.
 
 This CrossValidated [answer][10] gives a somewhat simple explanation of a Markov Chain, that can be summarized as:
 
@@ -69,3 +73,4 @@ ______________________________________________________________
 [8]: https://towardsdatascience.com/markov-chain-monte-carlo-291d8a5975ae
 [9]: https://towardsdatascience.com/a-zero-math-introduction-to-markov-chain-monte-carlo-methods-dcba889e0c50
 [10]: https://stats.stackexchange.com/a/207/10416
+[11]: https://towardsdatascience.com/mcmc-intuition-for-everyone-5ae79fff22b1
