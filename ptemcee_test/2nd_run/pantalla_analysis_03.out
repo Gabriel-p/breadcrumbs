@@ -1,0 +1,214 @@
+
+-------------------------------------------
+             [ASteCA v0.2.5-dev]
+-------------------------------------------
+
+Will load parameters from 'params_input_03.dat' file.
+
+Checking input parameters...
+
+Filter: Gmag
+Color:  (Bmag-Vmag), (Umag-Bmag)
+
+Processing PARSEC v1.2S theoretical isochrones
+in the photometric systems:
+ * gaiaDR2
+ * ubvrijhk
+[####################] 100% 
+Interpolating extra points (1000) into the isochrones
+[#####---------------] 25% [##########----------] 50% [###############-----] 75% [####################] 100% 
+
+Grid values: 1 [z], 101 [log(age)], 100 [Mass]
+(Force matplotlib to not use Xwindows backend)
+
+Full check done.
+
+Number of clusters to analyze: 3
+
+Analyzing cluster haf14_01
+Stars read from input file: N=12947
+  WARNING: N=6598 (51%) of stars contain
+  incomplete photometric data
+Frame's 2D histogram obtained
+Obtaining KDEs for the frame's coordinates
+<<Skip A1 block plot>>
+Manual center fixed: (2150, 1952) px
+Radial density profile (RDP) calculated
+Field density (6.9E-04 stars/px^2)
+Manual radius set: 700 px
+Area of cluster obtained
+Contamination index obtained (0.62)
+Processing complete dataset:
+  Stars rejected based on their errors (194)
+  Stars separated in/out of cluster's boundaries
+  Using defined number of field regions (6)
+Processing incomplete dataset:
+  Stars rejected based on their errors (953)
+  Stars separated in/out of cluster's boundaries
+  Using defined number of field regions (6)
+<<Skip A2 block plot>>
+Photometric analysis incompleteness function estimated
+Photometric completeness data function estimated
+Error removal function estimated
+Combined completeness function estimated
+<<Skip B1 block plot>>
+Luminosity function obtained
+Skipping field vs cluster A-D test
+Approximate number of members in cluster obtained (370)
+<<Skip B2 block plot>>
+Reading membership probabilities from file
+Removed 5 CMD outlier stars
+Stars selected in cluster region, 'local' method (532)
+Cluster region and MPs saved to file
+<<Skip C1 block plot>>
+Processing proper motions
+  WARNING: can not apply cos(dec) factor to pmRA
+<<Skip C2 block plot>>
+<<Skip C3 block plot>>
+Sampling selected IMF (kroupa_2002)
+Searching for optimal parameters
+Using ptemcee algorithm (dolphin; knuth)
+ 10% (0.030) LP=-799.0 (0.01550, 9.021, 0.508, 12.92, 1780, 0.00) [231 m/s | 2h35m]
+ 20% (0.035) LP=-795.3 (0.01550, 8.991, 0.497, 12.91, 1817, 0.00) [227 m/s | 2h20m]
+ 30% (0.040) LP=-795.3 (0.01550, 8.991, 0.497, 12.91, 1817, 0.00) [227 m/s | 2h3m]
+ 40% (0.047) LP=-795.3 (0.01550, 8.991, 0.497, 12.91, 1817, 0.00) [227 m/s | 1h45m]
+ 50% (0.053) LP=-795.3 (0.01550, 8.991, 0.497, 12.91, 1817, 0.00) [227 m/s | 1h28m]
+ 60% (0.056) LP=-795.3 (0.01550, 8.991, 0.497, 12.91, 1817, 0.00) [227 m/s | 1h10m]
+ 70% (0.059) LP=-795.3 (0.01550, 8.991, 0.497, 12.91, 1817, 0.00) [227 m/s | 0h52m]
+ 80% (0.059) LP=-795.3 (0.01550, 8.991, 0.497, 12.91, 1818, 0.00) [227 m/s | 0h35m]
+ 90% (0.059) LP=-795.3 (0.01550, 9.002, 0.485, 12.91, 1878, 0.00) [227 m/s | 0h17m]
+100% (0.057) LP=-795.3 (0.01550, 9.002, 0.485, 12.91, 1878, 0.00) [226 m/s | 0h0m]
+  WARNING: mean acceptance fraction is outside of the
+  recommended range.
+Best fit parameters obtained
+MCMC samples saved to file
+Best fit synthetic cluster saved to file
+Analysis results added to output file
+<<Plots for D1 block created>>
+<<Plots for D2 block created>>
+End of analysis for haf14_01 in 2h 58m 36s
+
+Analyzing cluster haf14_02
+Stars read from input file: N=12947
+  WARNING: N=6598 (51%) of stars contain
+  incomplete photometric data
+Frame's 2D histogram obtained
+Obtaining KDEs for the frame's coordinates
+<<Skip A1 block plot>>
+Manual center fixed: (2150, 1952) px
+Radial density profile (RDP) calculated
+Field density (6.9E-04 stars/px^2)
+Manual radius set: 700 px
+Area of cluster obtained
+Contamination index obtained (0.62)
+Processing complete dataset:
+  Stars rejected based on their errors (194)
+  Stars separated in/out of cluster's boundaries
+  Using defined number of field regions (6)
+Processing incomplete dataset:
+  Stars rejected based on their errors (953)
+  Stars separated in/out of cluster's boundaries
+  Using defined number of field regions (6)
+<<Skip A2 block plot>>
+Photometric analysis incompleteness function estimated
+Photometric completeness data function estimated
+Error removal function estimated
+Combined completeness function estimated
+<<Skip B1 block plot>>
+Luminosity function obtained
+Skipping field vs cluster A-D test
+Approximate number of members in cluster obtained (370)
+<<Skip B2 block plot>>
+Reading membership probabilities from file
+Removed 5 CMD outlier stars
+Stars selected in cluster region, 'local' method (532)
+Cluster region and MPs saved to file
+<<Skip C1 block plot>>
+Processing proper motions
+  WARNING: can not apply cos(dec) factor to pmRA
+<<Skip C2 block plot>>
+<<Skip C3 block plot>>
+Sampling selected IMF (kroupa_2002)
+Searching for optimal parameters
+Using ptemcee algorithm (dolphin; knuth)
+ 10% (0.015) LP=-770.4 (0.01550, 9.029, 0.541, 13.02, 1400, 0.00) [228 m/s | 5h15m]
+ 20% (0.026) LP=-768.6 (0.01550, 9.022, 0.541, 13.03, 1414, 0.00) [227 m/s | 4h42m]
+ 30% (0.044) LP=-768.6 (0.01550, 9.022, 0.541, 13.03, 1373, 0.00) [225 m/s | 4h9m]
+ 40% (0.056) LP=-761.8 (0.01550, 9.040, 0.538, 13.00, 1418, 0.00) [225 m/s | 3h33m]
+ 50% (0.064) LP=-761.8 (0.01550, 9.040, 0.539, 13.00, 1404, 0.00) [224 m/s | 2h58m]
+ 60% (0.070) LP=-761.0 (0.01550, 9.040, 0.538, 13.00, 1424, 0.00) [223 m/s | 2h23m]
+ 70% (0.075) LP=-761.0 (0.01550, 9.040, 0.538, 13.00, 1432, 0.00) [223 m/s | 1h47m]
+ 80% (0.078) LP=-761.0 (0.01550, 9.040, 0.538, 13.00, 1432, 0.00) [223 m/s | 1h11m]
+ 90% (0.081) LP=-761.0 (0.01550, 9.040, 0.538, 13.00, 1432, 0.00) [222 m/s | 0h35m]
+100% (0.083) LP=-761.0 (0.01550, 9.040, 0.538, 13.00, 1432, 0.00) [222 m/s | 0h0m]
+  WARNING: mean acceptance fraction is outside of the
+  recommended range.
+Best fit parameters obtained
+MCMC samples saved to file
+Best fit synthetic cluster saved to file
+Analysis results added to output file
+<<Plots for D1 block created>>
+<<Plots for D2 block created>>
+End of analysis for haf14_02 in 6h 1m 44s
+
+Analyzing cluster haf14_03
+Stars read from input file: N=12947
+  WARNING: N=6598 (51%) of stars contain
+  incomplete photometric data
+Frame's 2D histogram obtained
+Obtaining KDEs for the frame's coordinates
+<<Skip A1 block plot>>
+Manual center fixed: (2150, 1952) px
+Radial density profile (RDP) calculated
+Field density (6.9E-04 stars/px^2)
+Manual radius set: 700 px
+Area of cluster obtained
+Contamination index obtained (0.62)
+Processing complete dataset:
+  Stars rejected based on their errors (194)
+  Stars separated in/out of cluster's boundaries
+  Using defined number of field regions (6)
+Processing incomplete dataset:
+  Stars rejected based on their errors (953)
+  Stars separated in/out of cluster's boundaries
+  Using defined number of field regions (6)
+<<Skip A2 block plot>>
+Photometric analysis incompleteness function estimated
+Photometric completeness data function estimated
+Error removal function estimated
+Combined completeness function estimated
+<<Skip B1 block plot>>
+Luminosity function obtained
+Skipping field vs cluster A-D test
+Approximate number of members in cluster obtained (370)
+<<Skip B2 block plot>>
+Reading membership probabilities from file
+Removed 5 CMD outlier stars
+Stars selected in cluster region, 'local' method (532)
+Cluster region and MPs saved to file
+<<Skip C1 block plot>>
+Processing proper motions
+  WARNING: can not apply cos(dec) factor to pmRA
+<<Skip C2 block plot>>
+<<Skip C3 block plot>>
+Sampling selected IMF (kroupa_2002)
+Searching for optimal parameters
+Using ptemcee algorithm (dolphin; knuth)
+ 10% (0.019) LP=-768.1 (0.01550, 9.020, 0.524, 12.96, 1619, 0.00) [218 m/s | 8h15m]
+ 20% (0.018) LP=-767.5 (0.01550, 9.020, 0.524, 12.96, 1620, 0.00) [213 m/s | 7h31m]
+ 30% (0.025) LP=-767.5 (0.01550, 9.020, 0.524, 12.96, 1620, 0.00) [210 m/s | 6h39m]
+ 40% (0.030) LP=-767.5 (0.01550, 9.020, 0.524, 12.96, 1576, 0.00) [208 m/s | 5h46m]
+ 50% (0.033) LP=-767.5 (0.01550, 9.020, 0.524, 12.96, 1565, 0.00) [207 m/s | 4h49m]
+ 60% (0.036) LP=-767.5 (0.01550, 9.020, 0.524, 12.96, 1565, 0.00) [207 m/s | 3h52m]
+  Time consumed
+  WARNING: mean acceptance fraction is outside of the
+  recommended range.
+Best fit parameters obtained
+MCMC samples saved to file
+Best fit synthetic cluster saved to file
+Analysis results added to output file
+<<Plots for D1 block created>>
+<<Plots for D2 block created>>
+End of analysis for haf14_03 in 6h 1m 46s
+
+Full run completed in 15h 2m 18s

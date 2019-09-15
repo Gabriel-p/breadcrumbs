@@ -1,0 +1,26 @@
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+/home/gperren/asteca/packages/out/cornerPlot.py:248: UserWarning: Attempting to set identical bottom == top == 1800.0 results in singular transformations; automatically expanding.
+  ax.set_ylim([yp_min, yp_max])
+/home/gperren/asteca/packages/out/cornerPlot.py:248: UserWarning: Attempting to set identical bottom == top == 1800.0 results in singular transformations; automatically expanding.
+  ax.set_ylim([yp_min, yp_max])
+/home/gperren/asteca/packages/out/cornerPlot.py:248: UserWarning: Attempting to set identical bottom == top == 1800.0 results in singular transformations; automatically expanding.
+  ax.set_ylim([yp_min, yp_max])
+/home/gperren/asteca/packages/out/cornerPlot.py:248: UserWarning: Attempting to set identical bottom == top == 1800.0 results in singular transformations; automatically expanding.
+  ax.set_ylim([yp_min, yp_max])
+/home/gperren/asteca/packages/out/cornerPlot.py:247: UserWarning: Attempting to set identical left == right == 1800.0 results in singular transformations; automatically expanding.
+  ax.set_xlim([xp_min, xp_max])
+/home/gperren/asteca/packages/out/cornerPlot.py:289: UserWarning: Attempting to set identical left == right == 1800.0 results in singular transformations; automatically expanding.
+  ax.set_xlim(xp_min, xp_max)
+/home/gperren/asteca/packages/out/tracePlot.py:83: UserWarning: Attempting to set identical bottom == top == 1800.0 results in singular transformations; automatically expanding.
+  ax.set_ylim(min_max_p[cp][0], min_max_p[cp][1])
