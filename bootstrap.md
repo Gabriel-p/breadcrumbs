@@ -40,12 +40,26 @@ Also in the article [The miracle of the bootstrap][8], the SE formula is the SD 
 ![](figs/Bartlett_2013.png)
 
 
+## On reporting the mean of the bootstrap
+
+* [Why not report the mean of a bootstrap distribution?][9]
+
+    Because the bootstrapped statistic is one further abstraction away from your population parameter.
+
+* [When using bootstrap analysis, which estimates should be reported, the original ones or the bootstrap derived ones][10]
+
+    Bootstrapping is solely for estimating variability/precision not for estimating a point value. You should use the estimate based on your data and use the bootstrap standard errors or confidence interval to report precision (or p-value if you're using boostrapping for a hypothesis test).
+
+
+
 ___________________________________________________________________________
 [1]: https://blogs.sas.com/content/iml/2017/07/10/bootstrap-sasiml.html
-[2]: https://stats.stackexchange.com/a/133405/10416
+[2]: https://stats.stackexchange.com/a/133405/
 [3]: https://blogs.sas.com/content/iml/2017/07/12/bootstrap-bca-interval.html
 [4]: https://github.com/cgevans/scikits-bootstrap
 [5]: https://stats.stackexchange.com/questions/408516/bootstrap-and-numerical-optimization-of-statistic/408827?noredirect=1#comment763942_408827
 [6]: https://medium.com/@datalesdatales/the-bootstrap-or-why-you-should-care-about-uncertainty-c3fe1a5f36b5
 [7]: https://pdfs.semanticscholar.org/b966/6dfce48ea18ef9676297dcc6cb62a85fefde.pdf
 [8]: https://thestatsgeek.com/2013/07/02/the-miracle-of-the-bootstrap/
+[9]: https://stats.stackexchange.com/q/71357/
+[10]: https://stats.stackexchange.com/q/176974/
