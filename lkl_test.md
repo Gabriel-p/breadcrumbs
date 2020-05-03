@@ -15,8 +15,10 @@ using different three "masses" (`N`), two dimensions, and three different number
 M          100    1000    2000
 ------------------------------
 Dolphin   0.18    0.02    0.01
-Tremmel  -0.01*   0.01    0.00* <-- Tremmel
+Tremmel  -0.01*   0.01    0.00*
 Mighell   0.08    0.00*   0.01
+
+Winner: Tremmel
 
 ![](figs/lkl_test_2D_5b.png)
 
